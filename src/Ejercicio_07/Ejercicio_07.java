@@ -4,15 +4,15 @@ public class Ejercicio_07 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String frase = "El bb es un riogordeño";
+		String frasebb = "El bb es un riogordeño";
 		
-		System.out.println(espacio(frase));
+		System.out.println(espacio(frasebb));
 		
 	}
-	public static String espacio(String frase){
+	public static String espacio(String frasebb){
 		
 		String espacio = "";
-		char[] frasecaracter =  frase.toCharArray();
+		char[] frasecaracter =  frasebb.toCharArray();
 		
 		for(int i = 0; i < frasecaracter.length; i++){
 			
